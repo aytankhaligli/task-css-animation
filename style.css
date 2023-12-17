@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.plane {
+  transform: rotate(30deg);
+  position: absolute;
+  top: 70px;
+  left: -100px;
+  animation: plane 17s normal 2s;
+}
+
+@keyframes plane {
+  from {
+    left: -10px;
+  }
+  to {
+    left: 600px;
+  }
+}
